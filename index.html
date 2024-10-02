@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+    <body>
+        <nav>
+            <div class="logo"><img src="logo.png" alt=""></div>
+            <ul class="nav-links">
+                <div class="logo"><img src="logo.png" alt=""></div>
+                <ul class="pages">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="contacts">
+                    <h2>Contact info</h2>
+                    <div><i class="fa-solid fa-location-dot"></i> <span>Casablanca , Maarif , Block 99</span></div>
+                    <div><i class="fa-solid fa-envelope"></i> <span>info@restauranr.com</span></div>
+                    <div><i class="fa-regular fa-clock"></i> <span>Every Day , 09 AM - 10PM</span> </div>
+                    <div><i class="fa-solid fa-phone"></i> <span>+212 5 67001234</span> </div>
+                    <div></div>
+                </div>
+                <div class="ordernow">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <a href="#" >ORDER NOW</a>
+                </div>
+                <div class="socialmedia">
+                    <a href=""><i style="color: #7695FF;" class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i style="color: #FF885B;" class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i style="color: #D5ED9F;" class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <i class="fa-solid fa-xmark close"></i>
+            </ul>
+            <div class="nav-tools">
+                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div><i class="fa-solid fa-user"></i></div>
+                <div><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="menu">
+                    <i class="fa-solid fa-bars open"></i>
+                </div>
+            </div>
+            
+        </nav>
+    <div id="home" class="banner">
+        <div class="food-info">
+            <h1>Still <span>Hungry</span> ??</h1>
+            <h3>We suggest you the <span class="title" >Burger</span> feel free to order !</h3>
+            <p class="description" >A burger features a crispy bun, juicy beef, melted cheese, lettuce, tomato, and sauces. Delicious!</p>
+            <div class="banner-buttons">
+                <a href="#">Order Now</a>
+                <a href="#">Book a table</a>
+            </div>
+        </div>
+        <div class="foods-imgs">
+            <img onclick="food_img(this.src);color('#FFEB55'); food('Burger'); food_description('A burger features a crispy bun, juicy beef, melted cheese, lettuce, tomato, and sauces. Delicious!')" src="0.png" alt="">
+            <img onclick="food_img(this.src);color('#FFD7C4'); food('Pizza'); food_description('Pizza has a crispy crust topped with tomato sauce, melted cheese, and various toppings like pepperoni, vegetables, and olives. A classic favorite!')" src="1.png" alt="">
+            <img onclick="food_img(this.src);color('#FF7EE2'); food('Salad'); food_description('A salad features fresh greens, vibrant vegetables, and can include toppings like nuts, cheese, and dressing. A healthy and refreshing choice!')" src="2.png" alt="">
+        </div>
+        <div class="banner-img" >
+            <img class="image" src="0.png" alt="">
+        </div>
+    </div>
+    <div class="category">
+        <p><i class="fa-solid fa-utensils"></i>OUR SHOP<i class="fa-solid fa-utensils"></i></p>
+        <h2>Check our <span>Shop</span></h2>
+        <div class="plates">
+            <div class="plate">
+                <img src="Appetizers.jpg" alt="">
+                <h3>Appetizers</h3>
+            </div>
+            <div class="plate">
+                <img src="Bread.jpg" alt="">
+                <h3>Bread</h3>
+            </div>
+            <div class="plate">
+                <img src="Breakfasts.jpg" alt="">
+                <h3>Breakfasts</h3>
+            </div>
+            <div class="plate">
+                <img src="Cheese-Pizza.jpg" alt="">
+                <h3>Cheese Pizza</h3>
+            </div>
+            <div class="plate">
+                <img src="Dessert.jpg" alt="">
+                <h3>Dessert</h3>
+            </div>
+            <div class="plate">
+                <img src="soups.jpg" alt="">
+                <h3>Soups</h3>
+            </div>
+ 
+        </div>
+    </div>
+    <div class="trendy-recipes">
+        <p><i class="fa-solid fa-utensils"></i>Recipes</i><i class="fa-solid fa-utensils"></i></p>
+        <h2>Trendy <span>Recipes</span></h2>
+        <div class="recipes">
+
+            <div class="recipes-card">
+                <div class="recipes-img">
+                    <img src="chicken-fajita-recipes.jpg" alt="">
+                </div>
+                <div class="recipes-info">
+                    <h4>Chicken Fajita</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="recipes-card">
+                <div class="recipes-img">
+                    <img src="pizza-recipes.jpg" alt="">
+                </div>
+                <div class="recipes-info">
+                    <h4>Pizza Margarette</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="recipes-card">
+                <div class="recipes-img">
+                    <img src="dessert.jpg" alt="">
+                </div>
+                <div class="recipes-info">
+                    <h4>Bread</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="recipes-card">
+                <div class="recipes-img">
+                    <img src="chicken-fajita-recipes.jpg" alt="">
+                </div>
+                <div class="recipes-info">
+                    <h4>Chicken Fajita</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="recipes-card">
+                <div class="recipes-img">
+                    <img src="pizza-recipes.jpg" alt="">
+                </div>
+                <div class="recipes-info">
+                    <h4>Pizza Margarette</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="recipes-card">
+                <div class="recipes-img">
+                    <img src="dessert.jpg" alt="">
+                </div>
+                <div class="recipes-info">
+                    <h4>Bread</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blogs">
+    <p class='title' ><i class="fa-solid fa-utensils"></i>BLOGS</i><i class="fa-solid fa-utensils"></i></p>
+    <div class="blogs-action" >
+        <h2>RECIPES BLOGS</h2>
+        <a href="blogs.php">View More</a>
+    </div>
+        <div class="last-blogs">
+            <div class="blog blog-1">
+                <div class="blog-image"><img src="chef.jpg" alt=""></div>
+                <div class="blog-info">
+                    <p>2024-02-09</p>
+                    <h3>Our Recipes Blog !</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dolorem animi fugit ad repudiandae ipsa consectetur perferendis nihil.</p>
+                </div>
+            </div>
+            <div class="blog blog-2">
+                <img src="chef2.jpg" alt="">
+                <div>
+                    <p>2024-03-12</p>
+                    <a href="#">BreakFast</a>
+                    <h3>Hoot Meatloaf</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="blog blog-3">
+                <img src="chef3.jpg" alt=""> 
+                <div>
+                    <p>2024-03-12</p>
+                    <a href="#">BreakFast</a>
+                    <h3>Hoot Meatloaf</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="blog blog-4">
+                <img src="chef4.jpg" alt="">
+                <div>
+                    <p>2024-03-12</p>
+                    <a href="#">BreakFast</a>
+                    <h3>Hoot Meatloaf</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <p class='title' ><i class="fa-solid fa-utensils"></i>Gallery</i><i class="fa-solid fa-utensils"></i></p>
+        <div class="gallery-action" >
+            <h2>SOME OF GALLERY</h2>
+            <a href="Gallery.php">View More</a>
+        </div>
+        <div class="gallery-cards">
+
+            <div class="gallery-card">
+                <div class="gallery-img">
+                    <img src="gallery1.jpg" alt="">
+                </div>
+                <div class="gallery-info">
+                    <h4>Chicken Fajita</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-img">
+                    <img src="gallery2.jpg" alt="">
+                </div>
+                <div class="gallery-info">
+                    <h4>Chicken Fajita</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-img">
+                    <img src="gallery3.jpg" alt="">
+                </div>
+                <div class="gallery-info">
+                    <h4>Chicken Fajita</h4>
+                    <p><span>Ingradient : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        <!-- start contact -->
+<div class="contact" id="contact">
+    <h1>Contact Us</h1>
+    <div class="contact-us">
+        <div class="info">
+            <div class="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="element">
+                    <h3>Address</h3>
+                    <p>Morocco , Casablanca Hay Mabrouka Rue 1 N 88</p>
+                </div>
+            </div>
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <div class="elemen">
+                    <h3>Phone</h3>
+                    <p>+212 77 101 44 47</p>
+                </div>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="element">
+                    <h3>Email</h3>
+                    <p>noureddinema03@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <form action="">
+                <h2>Contact Us Here</h2>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Messages"></textarea>
+                <button>send</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- start footer -->
+<footer>
+    <div class="footer-content">
+        <i class="fa-regular fa-copyright"></i>
+        <p>2024 - Noureddine Makboul</p>
+    </div>
+</footer>
+    <script src="script.js" ></script>
+</body>
+</html>
